@@ -1,25 +1,42 @@
-import java.util.Scanner;
-
-public class Circulo {
-
-public static void Circulo (String args []) {
-
-	double radio, area; 
-	Scanner sc = new Scanner(System.in);
-	System.out.print("\ningresa el radio: ");
-	radio = sc.nexFloat();
-
-
- 	resultadodelradio = OperacionesCirculo.area(area);
- 	resultadodelacircunf = OperacionesCirculo.circunf(radio);
-
-
-	System.out.println("\nel radio del circulo es: " + resultadodelradio );
-	System.out.println("\nel resultado de la circunferencia es " + resultadodelacircunf);
-	
-}
-}	 
-
 
 
  
+public class Circulo { 
+
+
+
+
+
+public double area(double radio) { //encontrar el radio.
+
+
+
+    double result = 0;
+
+    result = 3.1416 * (radio) * (radio);
+
+    return result;
+
+
+
+}
+
+
+
+public double circu(double radio) { //encontrar la circunferencia
+
+
+
+    double result= 0;
+
+    result = (2 * 3.1416) * (radio);
+
+    return result; 
+
+
+
+}
+
+}
+
+
