@@ -1,19 +1,45 @@
-public class OperacionesCirculo { 
+import java.util.Scanner;
 
 
-public double area(radio) { //encontrar el radio.
 
-    double result = 0;
-    result = (3.1416*radio*radio);
-    return result;
+public class OperacionesCirculo {
 
-}
 
-public double circunf(circunf) { //encontrar la circunferencia
 
-    double result= 0;
-    result = (2*3.1416*radio);
-    return result; 
+	public static void main (String args []) {
 
-}
-}
+
+
+	    double radio, area, resultadodelradio, resultadodelacircu;
+
+	    Circulo Operaciones = new Circulo(); 
+
+	
+
+	    Scanner sc = new Scanner(System.in);
+
+	    System.out.print("\ningresa el radio: ");
+
+	    radio = sc.nextDouble();
+
+
+
+
+
+	    resultadodelradio = Operaciones.area(radio);
+
+	    resultadodelacircu = Operaciones.circu(radio);
+
+
+
+
+
+	    System.out.println("\nel radio del circulo es: " + resultadodelradio );
+
+	    System.out.println("\nel resultado de la circunferencia es " + resultadodelacircu);
+
+    
+
+	}				
+
+}	 
