@@ -1,6 +1,3 @@
-
-
- 
 public class Circulo { 
 
 
@@ -38,5 +35,3 @@ public double circu(double radio) { //encontrar la circunferencia
 }
 
 }
-
-
