@@ -1,10 +1,7 @@
 public class Circulo { 
 
 
-
-
-
-public double area(double radio) { //encontrar el radio.
+public double Area(double radio) { //encontrar el radio.
 
 
 
@@ -20,7 +17,7 @@ public double area(double radio) { //encontrar el radio.
 
 
 
-public double circu(double radio) { //encontrar la circunferencia
+public double Circu(double radio) { //encontrar la circunferencia
 
 
 

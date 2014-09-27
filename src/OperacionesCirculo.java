@@ -9,8 +9,8 @@ public class OperacionesCirculo {
 	public static void main (String args []) {
 
 
+ double radio, resultadodelradio,  resultadodelacircu;
 
-	    double radio, area, resultadodelradio, resultadodelacircu;
 
 	    Circulo Operaciones = new Circulo(); 
 
@@ -26,12 +26,9 @@ public class OperacionesCirculo {
 
 
 
-	    resultadodelradio = Operaciones.area(radio);
+	    resultadodelradio = Operaciones.Area(radio);
 
-	    resultadodelacircu = Operaciones.circu(radio);
-
-
-
+	    resultadodelacircu = Operaciones.Circu(radio);
 
 
 	    System.out.println("\nel radio del circulo es: " + resultadodelradio );
