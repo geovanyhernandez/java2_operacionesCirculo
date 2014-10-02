@@ -1,34 +1,35 @@
-public class Circulo { 
+public class Circulo{
+
+private float area;
+private float circunferencia;
+private float radio;
+
+	public void setRadio()
+	//public void setRadio (float radio) 
+	 {
+         this.radio = radio;
+        }
+	public void setArea (float radio)
+	{
+	this.area = 3.1416f * (radio * radio);
+         }
+	public void setCircunferencia (float radio)
+	{
+	this.circunferencia = 2 * 3.1416f * radio;
+        }
+
+	
 
 
-public double Area(double radio) { //encontrar el radio.
 
-
-
-    double result = 0;
-
-    result = 3.1416 * (radio) * (radio);
-
-    return result;
-
-
-
+public float getArea()
+{
+return area;
 }
 
-
-
-public double Circu(double radio) { //encontrar la circunferencia
-
-
-
-    double result= 0;
-
-    result = (2 * 3.1416) * (radio);
-
-    return result; 
-
-
-
+public float getCircunferencia()
+{
+return circunferencia;
 }
 
 }
